@@ -82,7 +82,7 @@
             </ul>
           </li>
           <li class="menu"><a href="/event">Event</a></li>
-          <li class="menu"><a href="/galerry">Gallery</a></li>
+          <li class="menu"><a href="/gallery">Gallery</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>

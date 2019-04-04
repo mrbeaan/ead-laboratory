@@ -15,7 +15,7 @@
           @foreach($gallery as $gallery)
             <div class="col-md-4 wow fadeInUp">
                 <div class="card mb-2 mt-3 rounded">
-                    <a href="{{$gallery->link}}"><img class="img-fluid card-img-top" src="/img/gallery/priority_2018.jpg" alt="Card image cap"></a>
+                    <a href="{{$gallery->link}}"><img class="img-fluid card-img-top" src="{{$gallery->gambar}}" alt="Card image cap"></a>
                     <div class="card-body">
                         <h6 class="card-title text-center"><strong>{{$gallery->nama_event}}</strong></h6>
                     </div>
@@ -25,3 +25,5 @@
         </div>
       </div>
     </section>
+
+@endsection
