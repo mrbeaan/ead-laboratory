@@ -25,3 +25,10 @@ Route::get('/aboutus/alumnus', 'AboutusController@alumnus');
 //product
 Route::get('/product', 'RetrieveController@produk');
 Route::get('/product/template', 'RetrieveController@template');
+
+//Gallery
+Route::get('/gallery', 'RetrieveController@gallery');
+Route::get('/gallery/priority-2018', 'RetrieveController@gallery_priority_2018');
+
+//Event
+Route::get('/event', 'RetrieveController@event');

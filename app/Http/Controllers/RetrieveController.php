@@ -28,4 +28,19 @@ class RetrieveController extends Controller
       $template = DB::select('select * from template');
       return view('product.template',compact('template'));
     }
+
+    public function gallery(){
+      $gallery = DB::select('select * from gallery');
+      return view('gallery.gallery',compact('gallery'));
+    }
+
+    public function gallery_priority_2018(){
+      $priority_2018 = DB::select('select * from gallery_priority_2018');
+      return view('gallery.priority-2018',compact('priority_2018'));
+    }
+
+    public function event(){
+      $event = DB::select('select * from event');
+      return view('event.event',compact('event'));
+    }
 }
