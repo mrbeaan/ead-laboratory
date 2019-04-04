@@ -22,7 +22,7 @@
                 </div>
                 <h6 class="mb-1"><strong>{{$temp->nama_template}}</strong></h6>
                 <div class="social mb-3">
-                  <a href="{{$temp->link_github}}"><i class="fab fa-github"> Github</i></a>
+                  <a href="{{$temp->link_github}}" target="_blank"><i class="fab fa-github"> Github</i></a>
                 </div>
             </div>
             @endforeach
